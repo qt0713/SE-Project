@@ -1,0 +1,69 @@
+
+package ${packageName}.${moduleName}.modular.${busName}.service;
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.IService;
+import ${packageName}.${moduleName}.modular.${busName}.entity.${className};
+import ${packageName}.${moduleName}.modular.${busName}.param.${className}AddParam;
+import ${packageName}.${moduleName}.modular.${busName}.param.${className}EditParam;
+import ${packageName}.${moduleName}.modular.${busName}.param.${className}IdParam;
+import ${packageName}.${moduleName}.modular.${busName}.param.${className}PageParam;
+
+import java.util.List;
+
+/**
+ * ${functionName}Service接口
+ *
+ * @author ${authorName}
+ * @date ${genTime}
+ **/
+public interface ${className}Service extends IService<${className}> {
+
+    /**
+     * 获取${functionName}分页
+     *
+     * @author ${authorName}
+     * @date ${genTime}
+     */
+    Page<${className}> page(${className}PageParam ${classNameFirstLower}PageParam);
+
+    /**
+     * 添加${functionName}
+     *
+     * @author ${authorName}
+     * @date ${genTime}
+     */
+    void add(${className}AddParam ${classNameFirstLower}AddParam);
+
+    /**
+     * 编辑${functionName}
+     *
+     * @author ${authorName}
+     * @date ${genTime}
+     */
+    void edit(${className}EditParam ${classNameFirstLower}EditParam);
+
+    /**
+     * 删除${functionName}
+     *
+     * @author ${authorName}
+     * @date ${genTime}
+     */
+    void delete(List<${className}IdParam> ${classNameFirstLower}IdParamList);
+
+    /**
+     * 获取${functionName}详情
+     *
+     * @author ${authorName}
+     * @date ${genTime}
+     */
+    ${className} detail(${className}IdParam ${classNameFirstLower}IdParam);
+
+    /**
+     * 获取${functionName}详情
+     *
+     * @author ${authorName}
+     * @date ${genTime}
+     **/
+    ${className} queryEntity(String id);
+}
