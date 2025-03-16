@@ -70,49 +70,49 @@
             <artifactId>DmJdbcDriver18</artifactId>
         </dependency>-->
 
-        <!-- 人大金仓数据库 -->
+        <!-- Renmin Jincang Database -->
         <!--<dependency>
             <groupId>cn.com.kingbase</groupId>
             <artifactId>kingbase8</artifactId>
         </dependency>-->
 
-        <!-- 登录鉴权插件 -->
+        <!-- Login authentication plugin -->
         <dependency>
             <groupId>vip.xiaonuo</groupId>
             <artifactId>scooter-plugin-auth</artifactId>
         </dependency>
 
-        <!-- 业务功能插件 -->
+        <!-- Business Function Plugin -->
         <dependency>
             <groupId>vip.xiaonuo</groupId>
             <artifactId>scooter-plugin-biz</artifactId>
         </dependency>
 
-        <!-- C端功能插件 -->
+        <!-- C-end functional plugin -->
         <dependency>
             <groupId>vip.xiaonuo</groupId>
             <artifactId>scooter-plugin-client</artifactId>
         </dependency>
 
-        <!-- 开发工具插件 -->
+        <!-- Development tool plugin -->
         <dependency>
             <groupId>vip.xiaonuo</groupId>
             <artifactId>scooter-plugin-dev</artifactId>
         </dependency>
 
-        <!-- 代码生成插件 -->
+        <!-- Code generation plugin -->
         <dependency>
             <groupId>vip.xiaonuo</groupId>
             <artifactId>scooter-plugin-gen</artifactId>
         </dependency>
 
-        <!-- 移动端管理插件 -->
+        <!-- Mobile management plugin -->
         <dependency>
             <groupId>vip.xiaonuo</groupId>
             <artifactId>scooter-plugin-mobile</artifactId>
         </dependency>
 
-        <!-- 系统功能插件 -->
+        <!-- System Function Plugin -->
         <dependency>
             <groupId>vip.xiaonuo</groupId>
             <artifactId>scooter-plugin-sys</artifactId>
