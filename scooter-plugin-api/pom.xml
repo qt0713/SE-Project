@@ -15,26 +15,26 @@
     <description>插件API接口模块</description>
 
     <modules>
-        <!-- 登录鉴权插件api接口 -->
-        <module>scooter-plugin-auth-api</module>
+    <!-- Login and authentication plugin API interface -->
+    <module>scooter-plugin-auth-api</module>
 
-        <!-- 业务功能插件api接口 -->
-        <module>scooter-plugin-biz-api</module>
+    <!-- Business function plugin API interface -->
+    <module>scooter-plugin-biz-api</module>
 
-        <!-- C端功能插件api接口 -->
-        <module>scooter-plugin-client-api</module>
+    <!-- Client-side function plugin API interface -->
+    <module>scooter-plugin-client-api</module>
 
-        <!-- 开发工具插件api接口 -->
-        <module>scooter-plugin-dev-api</module>
+    <!-- Development tool plugin API interface -->
+    <module>scooter-plugin-dev-api</module>
 
-        <!-- 代码生成插件api接口 -->
-        <module>scooter-plugin-gen-api</module>
+    <!-- Code generation plugin API interface -->
+    <module>scooter-plugin-gen-api</module>
 
-        <!-- 移动端管理插件api接口 -->
-        <module>scooter-plugin-mobile-api</module>
+    <!-- Mobile management plugin API interface -->
+    <module>scooter-plugin-mobile-api</module>
 
-        <!-- 系统功能插件api接口 -->
-        <module>scooter-plugin-sys-api</module>
+    <!-- System function plugin API interface -->
+    <module>scooter-plugin-sys-api</module>
 
 
 
