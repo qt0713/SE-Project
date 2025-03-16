@@ -64,7 +64,7 @@
             <artifactId>mssql-jdbc</artifactId>
         </dependency>-->
 
-        <!-- 达梦数据库 -->
+        <!-- 达梦database -->
         <!--<dependency>
             <groupId>com.dameng</groupId>
             <artifactId>DmJdbcDriver18</artifactId>
